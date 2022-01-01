@@ -29,7 +29,7 @@ class ContohResouce(Resource):
         age = request.form["age"]
         identity["name"] = name
         identity["age"] = age
-        response = {'message': 'Data has been saved'}
+        response = {'message': 'Data has been successfully added'}
         return response
 
 
