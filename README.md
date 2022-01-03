@@ -6,6 +6,13 @@
   </p>
 </div>
 
+## Route
+* /: Entry point for all API, provide general information of covid cases.
+* /yearly/[year]: Provide yearly data of total covid cases of the year provided in [year].
+* /yearly?since=[year]&?upto=[year]: Provide yearly data of total covid cases.
+* /monthly/[year.month]: Provide monthly data of total covid cases of the year provided in [month].
+* /monthly?since=[year.month]&?upto=[year.month]: Provide monthly data of total covid cases.
+
 <!-- INSTALASI -->
 ## Installation
 Berikut ini cara instalasi project dengan server local, silahkan mengikuti cara dibawah ini.
@@ -16,9 +23,7 @@ Dokumentasi resmi <a href="https://flask.palletsprojects.com/en/2.0.x/"> klik di
 
 <!-- PENGGUNAAN -->
 ## Usage
-* Menjalankan Server local dengan debug, 
-  <br>
-  Menggunakan menjalankan debug
+* Menjalankan Server local dengan debug
   ```sh
    python app.py
    ```
