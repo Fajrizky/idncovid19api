@@ -16,7 +16,6 @@ Dokumentasi resmi <a href="https://flask.palletsprojects.com/en/2.0.x/"> klik di
 
 <!-- PENGGUNAAN -->
 ## Usage
-Dokumentasi resmi <a href="https://flask.palletsprojects.com/en/2.0.x/> klik disini </a>
 * Menjalankan Server local dengan debug, 
   <br>
   Menggunakan menjalankan debug
